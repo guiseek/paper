@@ -22,6 +22,9 @@
             "tsConfig": "apps/demo/tsconfig.app.json",
             "aot": true,
             "assets": ["apps/demo/src/favicon.ico", "apps/demo/src/assets"],
+            "stylePreprocessorOptions": {
+              "includePaths": ["design/scss"]
+            },
             "styles": ["apps/demo/src/styles.scss"],
             "scripts": []
           },
